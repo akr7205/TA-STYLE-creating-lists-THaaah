@@ -34,9 +34,9 @@ body {
     font-family: 'Karla', sans-serif;
 
 }
-/* ol, ul {
+ol, ul {
 	list-style: none;
-} */
+}
 blockquote, q {
 	quotes: none;
 }
@@ -86,8 +86,15 @@ h1,h2,h3,h4,h5,h6,time{
 {
 	padding: 30px 0;
 }
+ol,ul{
+    padding-left: 60px;
+}
+
 ul {
-    list-style: none;
+    list-style: disc;
+}
+ol{
+    list-style: decimal;
 }
 a{
     text-decoration: none;
@@ -101,6 +108,11 @@ a{
     margin-right: 35px;
     font-size: 25px;
     font-weight: 500;
+    list-style: none;
+    padding-left: 0;
+}
+.header-nav ul{
+    padding-left: 0;
 }
 .nav a{
     color:#fff;
@@ -112,7 +124,8 @@ main{
 }
 .list-card{
     background-color: #005979;
-    padding: 40px 24px;
+    padding: 40px 0;
+    /* padding-left: 65px; */
     color: #b9c1a2;
     font-size: 25px;
     font-weight: 500;
@@ -120,18 +133,19 @@ main{
     height: 600px;
     box-shadow: 15px 10px 13px 3px rgba(127,124,124,0.5);
 }
-ol{
+/* ol{
     list-style-position: inside;
-}
+} */
 /* list card1 */
-.list-card1
-{
-
+.list-card1 ul{
+    list-style-type: disc;
 }
-.list-card2
+.list-card2 ol
 {
     list-style-image: url(../multimedia/check-circle-solid.svg);
-    padding-left: 40px;
+}
+.list-card2 li{
+    line-height: 2;
 }
 .heading{
     font-size: 35px;
@@ -159,3 +173,4 @@ ol{
 .footer li{
     font-weight: 300;
 }
+
