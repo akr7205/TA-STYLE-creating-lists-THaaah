@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height:1.5;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,time{
+    font-family: 'Karla', sans-serif;
+}
+/* General */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.padding
+{
+	padding: 30px 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+.header{
+    background-color:#f96115;
+}
+ 
+.nav li{
+    margin-right: 35px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav a{
+    color:#fff;
+}
+/* main */
+/* list-card */
+main{
+    background-color: #d4cea7;
+}
+.list-card{
+    background-color: #005979;
+    padding: 40px 24px;
+    color: #b9c1a2;
+    font-size: 25px;
+    font-weight: 500;
+    flex: 0 1 30%;
+    height: 600px;
+    box-shadow: 15px 10px 13px 3px rgba(127,124,124,0.5);
+}
+ol{
+    list-style-position: inside;
+}
+/* list card1 */
+.list-card1
+{
+
+}
+.list-card2
+{
+    list-style-image: url(../multimedia/check-circle-solid.svg);
+    padding-left: 40px;
+}
+.heading{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #37372c;
+    padding: 10px 0;
+}
+.text{
+    font-size: 17px;
+    word-spacing: 3px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.padding-bottom{
+    padding-bottom: 80px;
+    padding-top: 25px;
+}
+.zero-padding{
+    padding: 0;
+}
+.footer
+{
+    background-color: #252c22;
+}
+.footer li{
+    font-weight: 300;
+}
